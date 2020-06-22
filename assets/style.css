@@ -1,0 +1,39 @@
+h1{
+text-align: center;
+background-color: 	rgb(58, 59, 70);
+color: white;
+margin-top: 0;
+padding: 12px;
+
+}
+
+
+
+
+.btn-group button {
+    background-color: white; /* White background */
+    border: 1px solid grey; /* Grey border */
+    color: black; Black text
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+  
+    
+  }
+  .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color:lightblue;
+  }
+
+
+.searchArea{
+    float: left;
+    width: 30%
+
+    ;
+}
