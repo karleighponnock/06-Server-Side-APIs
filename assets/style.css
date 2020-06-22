@@ -1,23 +1,34 @@
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+
 h1{
 text-align: center;
 background-color: 	rgb(58, 59, 70);
 color: white;
-margin-top: 0;
+margin: 0;
 padding: 12px;
-
+object-fit: fill;
 }
 
 
-
+input{
+    margin-bottom: 15px;
+}
 
 .btn-group button {
     background-color: white; /* White background */
     border: 1px solid grey; /* Grey border */
-    color: black; Black text
+    color: black; /*Black text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
+    width: 96%; /* Set a width */
+    max-height: 80%;
+    padding-bottom: 20px;
     display: block; /* Make the buttons appear below each other */
+
   
     
   }
@@ -33,7 +44,7 @@ padding: 12px;
 
 .searchArea{
     float: left;
-    width: 30%
-
-    ;
+    width: 26%;
+    height: 60%;
+    background-color:rgb(197, 219, 247);
 }
