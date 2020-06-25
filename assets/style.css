@@ -88,15 +88,17 @@ body {
 /* Remove extra left and right margins, due to padding in columns */
 .row {
   margin: 0 -5px;
-float: right;
-display: block;
+display: inline
 }
+
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+ 
+
 }
 
 /* Style the counter cards */
@@ -105,7 +107,8 @@ display: block;
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
-  clear: both;
+  display: inline
+  
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
